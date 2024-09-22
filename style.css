@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Lobster&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #393E46;
+}
+.container h1{
+    margin-top: 10px;
+    font-size: 6rem;
+    color: #4ECCA3;
+    font-family: 'Lobster', cursive;
+}
+.dice img{
+    width: 80%;
+}
+.dice p{
+    font-size: 2rem;
+    color: #4ECCA3;
+    font-family: 'Indie Flower', cursive;
+}
+
+footer{
+
+    margin-top: 30px;
+    color: #EEEEEE;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+}
+button{
+    width: 110px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 3px;
+    border: none;
+    background-color: #4a3aff92;
+    color: rgba(87, 233, 136, 0.752);
+    font-family: 'Lobster', cursive;
+    transition: all 0.3s linear;
+}
+button:hover{
+    color: #4a3aff92;
+    background-color: rgba(87, 233, 136, 0.752);
+}
